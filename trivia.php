@@ -1,5 +1,5 @@
 <?php
-$triviafiles = "trivia/";
+$triviafiles = "trivia/random";
 if (isset($_GET["mode"])) {
   $mode = strtolower($_GET["mode"]);
   if ($mode == "categories") {
